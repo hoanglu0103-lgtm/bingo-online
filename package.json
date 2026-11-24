@@ -1,0 +1,10 @@
+{
+  "name": "bingo-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multiplayer Bingo 5x5 online game for up to 20 players per room",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}
